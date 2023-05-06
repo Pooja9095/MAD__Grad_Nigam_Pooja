@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		724666762A05EA2600328AAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724666752A05EA2600328AAA /* AppDelegate.swift */; };
+		724666782A05EA2600328AAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724666772A05EA2600328AAA /* SceneDelegate.swift */; };
+		7246667A2A05EA2600328AAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724666792A05EA2600328AAA /* ViewController.swift */; };
+		7246667D2A05EA2600328AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7246667B2A05EA2600328AAA /* Main.storyboard */; };
+		724666802A05EA2600328AAA /* MAD_Grad_Nigam_Pooja.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7246667E2A05EA2600328AAA /* MAD_Grad_Nigam_Pooja.xcdatamodeld */; };
+		724666822A05EA2C00328AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724666812A05EA2C00328AAA /* Assets.xcassets */; };
+		724666852A05EA2C00328AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724666832A05EA2C00328AAA /* LaunchScreen.storyboard */; };
+		7246668D2A05ED5F00328AAA /* RailroadBoxCarModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7246668C2A05ED5C00328AAA /* RailroadBoxCarModel.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		724666722A05EA2600328AAA /* MAD_Grad_Nigam_Pooja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAD_Grad_Nigam_Pooja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		724666752A05EA2600328AAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		724666772A05EA2600328AAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		724666792A05EA2600328AAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7246667C2A05EA2600328AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7246667F2A05EA2600328AAA /* MAD_Grad_Nigam_Pooja.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MAD_Grad_Nigam_Pooja.xcdatamodel; sourceTree = "<group>"; };
+		724666812A05EA2C00328AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		724666842A05EA2C00328AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		724666862A05EA2C00328AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7246668C2A05ED5C00328AAA /* RailroadBoxCarModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RailroadBoxCarModel.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7246666F2A05EA2600328AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		724666692A05EA2500328AAA = {
+			isa = PBXGroup;
+			children = (
+				7246668C2A05ED5C00328AAA /* RailroadBoxCarModel.mlmodel */,
+				724666742A05EA2600328AAA /* MAD_Grad_Nigam_Pooja */,
+				724666732A05EA2600328AAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		724666732A05EA2600328AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				724666722A05EA2600328AAA /* MAD_Grad_Nigam_Pooja.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		724666742A05EA2600328AAA /* MAD_Grad_Nigam_Pooja */ = {
+			isa = PBXGroup;
+			children = (
+				724666752A05EA2600328AAA /* AppDelegate.swift */,
+				724666772A05EA2600328AAA /* SceneDelegate.swift */,
+				724666792A05EA2600328AAA /* ViewController.swift */,
+				7246667B2A05EA2600328AAA /* Main.storyboard */,
+				724666812A05EA2C00328AAA /* Assets.xcassets */,
+				724666832A05EA2C00328AAA /* LaunchScreen.storyboard */,
+				724666862A05EA2C00328AAA /* Info.plist */,
+				7246667E2A05EA2600328AAA /* MAD_Grad_Nigam_Pooja.xcdatamodeld */,
+			);
+			path = MAD_Grad_Nigam_Pooja;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		724666712A05EA2600328AAA /* MAD_Grad_Nigam_Pooja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724666892A05EA2C00328AAA /* Build configuration list for PBXNativeTarget "MAD_Grad_Nigam_Pooja" */;
+			buildPhases = (
+				7246666E2A05EA2600328AAA /* Sources */,
+				7246666F2A05EA2600328AAA /* Frameworks */,
+				724666702A05EA2600328AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAD_Grad_Nigam_Pooja;
+			productName = MAD_Grad_Nigam_Pooja;
+			productReference = 724666722A05EA2600328AAA /* MAD_Grad_Nigam_Pooja.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7246666A2A05EA2500328AAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					724666712A05EA2600328AAA = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 7246666D2A05EA2600328AAA /* Build configuration list for PBXProject "MAD_Grad_Nigam_Pooja" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 724666692A05EA2500328AAA;
+			productRefGroup = 724666732A05EA2600328AAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				724666712A05EA2600328AAA /* MAD_Grad_Nigam_Pooja */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		724666702A05EA2600328AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724666852A05EA2C00328AAA /* LaunchScreen.storyboard in Resources */,
+				724666822A05EA2C00328AAA /* Assets.xcassets in Resources */,
+				7246667D2A05EA2600328AAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7246666E2A05EA2600328AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7246667A2A05EA2600328AAA /* ViewController.swift in Sources */,
+				724666802A05EA2600328AAA /* MAD_Grad_Nigam_Pooja.xcdatamodeld in Sources */,
+				724666762A05EA2600328AAA /* AppDelegate.swift in Sources */,
+				724666782A05EA2600328AAA /* SceneDelegate.swift in Sources */,
+				7246668D2A05ED5F00328AAA /* RailroadBoxCarModel.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7246667B2A05EA2600328AAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7246667C2A05EA2600328AAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		724666832A05EA2C00328AAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				724666842A05EA2C00328AAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		724666872A05EA2C00328AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		724666882A05EA2C00328AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7246668A2A05EA2C00328AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MAD_Grad_Nigam_Pooja/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.okstate.pnigam.MAD-Grad-Nigam-Pooja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7246668B2A05EA2C00328AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MAD_Grad_Nigam_Pooja/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.okstate.pnigam.MAD-Grad-Nigam-Pooja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7246666D2A05EA2600328AAA /* Build configuration list for PBXProject "MAD_Grad_Nigam_Pooja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724666872A05EA2C00328AAA /* Debug */,
+				724666882A05EA2C00328AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724666892A05EA2C00328AAA /* Build configuration list for PBXNativeTarget "MAD_Grad_Nigam_Pooja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7246668A2A05EA2C00328AAA /* Debug */,
+				7246668B2A05EA2C00328AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7246667E2A05EA2600328AAA /* MAD_Grad_Nigam_Pooja.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7246667F2A05EA2600328AAA /* MAD_Grad_Nigam_Pooja.xcdatamodel */,
+			);
+			currentVersion = 7246667F2A05EA2600328AAA /* MAD_Grad_Nigam_Pooja.xcdatamodel */;
+			path = MAD_Grad_Nigam_Pooja.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7246666A2A05EA2500328AAA /* Project object */;
+}
